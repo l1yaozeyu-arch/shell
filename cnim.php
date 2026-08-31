@@ -2,8 +2,8 @@
 session_name('CNIM_SHELL');
 session_start();
 
-$valid_username = 'admin';
-$valid_password = 'admin';
+$valid_username = 'L1';
+$valid_password = 'cnim00';
 
 // ===== 初始化session（不再绑定IP/UA，取消超时） =====
 if (!isset($_SESSION['secure_init'])) {
